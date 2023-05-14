@@ -1,0 +1,218 @@
+body{
+    font-family: 'Song Myung', serif;
+    font-weight: 400;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Nav sections */
+.navBar{
+    height: 92px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoBar{
+    width: 205px;
+    height: 92px;
+ 
+}
+.logoSize{
+    height: 100%;
+    width: 100%;
+}
+img{
+    fill: rgb(0, 0, 0);
+}
+.icoBlack{
+    text-decoration: none;
+    color: #050505;
+}
+.navItems{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.userBTN{
+    width: 150px;
+height: 44px;
+left: 1455px;
+top: 35px;
+background: #E28219;
+border-radius: 105px;
+border: none;
+color: aliceblue;
+}   
+
+.FR:nth-child(1)::before{
+    content: "";
+    position: relative;
+    height: 20px;
+    width: 1px;
+    background: #bdbdbd;
+    display: block;
+    left: -15px;
+    right: 0;
+    top: 25px;
+    bottom: 0;
+    
+}
+.FR:nth-child(1)::after{
+    content: "";
+    position: relative;
+    height: 20px;
+    width: 1px;
+    background: #bdbdbd;
+    display: block;
+    left: 30px;
+    right: 0;
+    top: -20px;
+    bottom: 0;
+    
+}
+
+/* Nav sections End */
+
+
+/* heru section */
+
+.hero{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 45px;
+}
+.left-details{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 60%;
+}
+.right-details{
+    width: 35%;
+}
+.titleImg>img{
+    width: 219px;
+    height: 72px;
+    border-radius: 100px;
+}
+.right-details{
+    width: 520px;
+    height: 436px;
+    text-align: center;
+    background: #bdbdbd;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.right-details>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.tagline{
+    margin-right: 40px;
+    align-self: flex-end;
+}
+.tagline::before{
+    display: block;
+    content: ' ';
+    position: relative;
+    background-image: url('/assest/icons/star.svg');
+    background-size: 43px 43px;
+    height: 43px;
+    width: 43px;
+    left: -60px;
+    right: 24px;
+    bottom: 0;
+    top: 40px;
+}
+.tagline h1{
+    font-family: 'Song Myung', serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.best-food-color{
+    color: #E28219;
+}
+
+.left-img{
+    height: 334px;
+    width: 394px;
+    text-align: center;
+    background: #bdbdbd;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.left-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tagline-details{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left-img-details{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-around;
+    align-items: self-start;
+}
+.left-img-details button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 80px;
+    background: #E28219;
+    color: white;
+}
+.social-icon{
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icon::before{
+    margin-right: 40px;
+    content: "";
+    position: relative;
+    height: 1px;
+    width: 110px;
+    background: #bdbdbd;
+    display: block;
+    left: 0px;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+}
+
+.circle-shape{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    border: 2px solid rgb(131, 126, 126);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.color{
+    color: black;
+}
