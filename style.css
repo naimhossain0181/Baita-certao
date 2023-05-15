@@ -451,6 +451,15 @@ color: #FFFFFF;
     bottom: 0;
     background: #E1E1E1;
 }
+.our-details p{
+    font-family: Song Myung;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
 
 .address p:nth-child(1){
     font-family: Roboto;
@@ -471,6 +480,16 @@ color: #FFFFFF;
     text-align: left;
 
 }
+.heures p:nth-child(1){
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E28219;
+
+}
 .Social-Links{
     display: flex;
     flex-direction: column;
@@ -486,6 +505,15 @@ color: #FFFFFF;
     left: 0px;
     bottom: 0;
     background: #E1E1E1;
+}
+.Social-Links p{
+    font-family: Song Myung;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 .social-icon-link{
     width: 120px;
