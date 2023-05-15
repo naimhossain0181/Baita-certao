@@ -490,6 +490,16 @@ color: #FFFFFF;
     color: #E28219;
 
 }
+.heures p:nth-child(2){
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+ 
+
+}
 .Social-Links{
     display: flex;
     flex-direction: column;
