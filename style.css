@@ -1,6 +1,7 @@
 body{
     font-family: 'Song Myung', serif;
     font-weight: 400;
+    text-decoration: none;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -399,4 +400,97 @@ color: #FFFFFF;
     border-radius: 0px 10px 10px 0px;
     border: none;
     
+}
+
+/* footer css */
+.footer-body{
+    max-width: 70%;
+    height: 319px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.max-width-css{
+
+    max-width: 33%;
+
+}
+.company-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.company-info{
+    
+}
+.company-logo{
+    width: 220px;
+    height: 98px;
+}
+.company-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.company-logo-details p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #444444;
+
+}
+.our-details::before{
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 2px;
+    display: block;
+    top: 30px;
+    left: 0px;
+    bottom: 0;
+    background: #E1E1E1;
+}
+
+.address p:nth-child(1){
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #E28219;
+}
+.address p:nth-child(2){
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Social-Links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Social-Links::before{
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 2px;
+    display: block;
+    top: 30px;
+    left: 0px;
+    bottom: 0;
+    background: #E1E1E1;
+}
+.social-icon-link{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
